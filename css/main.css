@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background: #0D0D2B;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ============= Header START ================ */
+
+.navbar-logo {
+  align-items: center;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 18px;
+  font-size: 18px;
+}
+
+.nav-item a {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: aliceblue;
+  transition: all .5s;
+}
+
+.nav-item a:hover {
+  color: aquamarine;
+  scale: 1.05;
+}
+
+/* ============= Header END ================ */
+
+/* ============= Platform START ================ */
+
+.platform-section {
+  background-color: rgb(49, 47, 47);
+  min-height: 200px;
+  color: aliceblue;
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+
+.first-line-btn {
+  padding: 10px 20px;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+
+.platform-title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.platform-row {
+  align-items: center;
+}
+
+/* ============= Platform END ================ */
+
+/* ============= Digital START ================ */
+
+.digital-section {
+  padding: 40px 0;
+  background-color: rgb(59, 21, 94);
+  color: aliceblue;
+}
+
+.big-text {
+  font-size: 40px;
+  font-weight: 700;
+}
+.small-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* ============= Digital END ================ */
+
+/* ============= Check START ================ */
+
+.check-section {
+  padding: 40px 0;
+  background-color: rgb(4, 37, 4);
+}
+
+.check-section-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.check-section-text {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 219px;
+}
+
+/* ============= Check END ================ */
+
+/* ============= Calculate START ================ */
+
+.calculate-section {
+  max-width: 942px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: beige;
+  margin-top: -200px; 
+  color: black;
+  z-index: 5;
+  position: relative;
+}
+
+.form-select {
+  max-width: 200px;
+}
+
+.first-input {
+  max-width: 403px;
+}
+
+.calculate-first-line {
+  margin-bottom: 100px;
+}
+
+.top-text {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: blue;
+  padding: 5px;
+  border: 2px solid blue;
+  display: inline-block;
+}
+
+.middle-text {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.middle-text span {
+  color: blue;
+}
+.last-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* ============= Calculate END ================ */
+
+/* ============= Fluid START ================ */
+
+.trade {
+  background-color: aliceblue;
+  min-height: 500px;
+  padding: 250px 20px 60px 20px;
+  margin-top: -200px;
+  color: black;
+}
+
+.trade-section-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+
+.trade-card {
+  text-align: center;
+  padding: 40px;
+  background: #2B076E;
+  color: aliceblue;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.trade-card1 {
+  background-color: beige;
+  border: 1px solid black;
+  color: black;
+}
+.trade-card1-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.trade-card1-title span {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(189, 182, 182);
+  margin-left: 10px;
+}
+
+.trade-card1-text {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 322px;
+}
+
+.trade-btn span {
+  margin-right: 10px;
+}
+/* ============= Fluid END ================ */
+
+/* ============= Bottom START ================ */
+
+.bottom {
+  background-color: inherit;
+  padding: 40px 0;
+  
+}
+
+.bottom-section {
+  padding: 30px 20px;
+  border: 1px solid aquamarine;
+  background: #252563;
+  color: gold;
+  border-radius: 20px;
+  margin-bottom: 80px;
+}
+
+.middle-input {
+  background-color: inherit;
+  color: white;
+  border: none;
+  border-bottom: 1px solid gold;
+}
+
+.bottom-btn {
+  padding: 10px 20px;
+  background-color: aliceblue;
+  color: black;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.bottom-left-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.bottom-left-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* ============= Bottom END ================ */
+
+/* ============= Last START ================ */
+
+.last-section {
+  background-color: rgb(39, 37, 37);
+  padding: 30px 0;
+  color: aquamarine;
+}
+
+/* ============= Last END ================ */
+
+@media (max-width: 768px) {
+  
+.platform-title {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+}
